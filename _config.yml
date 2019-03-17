@@ -27,8 +27,8 @@ email: yixinmao@uw.edu
 is_production: true
 
 # Sites.
-ghw_site: "https://waterhackweek.github.io/"
-ghw_github: "https://github.com/waterhackweek"
+whw_site: "https://waterhackweek.github.io/"
+whw_github: "https://github.com/waterhackweek"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
