@@ -21,7 +21,7 @@ In a typical scenario, we have a **training set** of data observed in the past:
 
 Using this data, we build a **prediction model**, or **learner**, that is able to predict the outcome for new input data.
 
-![alt text](../assets/img/machine_learning_illustration.png "Logo Title Text 1")
+![alt text](../assets/img/machine_learning_illustration.png)
 
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions.
 
