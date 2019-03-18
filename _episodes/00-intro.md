@@ -1,23 +1,34 @@
 ---
-title: "Machine Learning with GIS application (a Computer Vision Problem)"
+title: "What is machine learning?"
 teaching: 15
 exercises: 0
 questions:
-- "What is machine learning? How can it be applied to the GIS landscape? What are some use cases?"
+- "What is machine learning?"
 objectives:
-- "Get a basic understanding of machine learning and GIS applications."
+- "Get a basic understanding of machine learning and potential applications in water research."
 keypoints:
-- "geospatial machine learning, use cases annd background"
+- "machine learning, water research applications"
 ---
 
 # What is Machine Learning (ML)?
 
-Machine learning is a general term used to apply to many techniques which utilize statistical iteration and feedback so that correlations or logic is learned rather than dictated.
+Short answer: letting the computer learn from data.
+
+In a typical scenario, we have a *training set* of data observed in the past:
+    - A set of input data (e.g., satellite image color, measurement time of year, location)
+    - Outcome measurements (e.g., landcover type)
+Using this data, we build a *prediction model*, or *learner*, that is able to predict the outcome for new input data.
+
+![alt text](../assets/img/machine_learning_illustration.png)
 
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions.
 
 1. Teaching a child about danger, the alphabet, or to speak (overt repetition and supervision)
 1. How you catch a baseball or get out of the way of a moving car. (retina -> brain -> reflex)
+
+
+
+
 
 ## [“What does the machine (i.e. the statistical model) actually learn?”](https://towardsdatascience.com/linear-regression-using-gradient-descent-in-10-lines-of-code-642f995339c0)
 
