@@ -12,11 +12,13 @@ keypoints:
 
 # What is Machine Learning (ML)?
 
-Short answer: letting the computer learn from data.
+**Short answer: letting the computer learn rules from data.**
 
-In a typical scenario, we have a *training set* of data observed in the past:
-    - A set of input data (e.g., satellite image color, measurement time of year, location)
-    - Outcome measurements (e.g., landcover type)
+In a typical scenario, we have a **training set** of data observed in the past:
+
+- A set of input data (e.g., satellite image color, measurement time of year, location)
+- Outcome measurements (e.g., landcover type)
+
 Using this data, we build a *prediction model*, or *learner*, that is able to predict the outcome for new input data.
 
 ![alt text](../assets/img/machine_learning_illustration.png)
