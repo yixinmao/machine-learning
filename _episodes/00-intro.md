@@ -3,9 +3,9 @@ title: "What is machine learning?"
 teaching: 15
 exercises: 0
 questions:
-- "What is machine learning?"
+- "What is machine learning? What are typical applications of machine learning?"
 objectives:
-- "Get a basic understanding of machine learning and potential applications in water research."
+- "Get a basic understanding of machine learning and possible applications in water research."
 keypoints:
 - "machine learning, water research applications"
 ---
@@ -21,12 +21,12 @@ In a typical scenario, we have a **training set** of data observed in the past:
 
 Using this data, we build a **prediction model**, or **learner**, that is able to predict the outcome for new input data.
 
-![alt text](../assets/img/machine_learning_illustration.png =100x)
+![alt text](../assets/img/fire_ai.png)
 
-Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions.
+Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions (e.g., teaching a child to speak): **repetition with more data results in a better learner**.
 
-1. Teaching a child about danger, the alphabet, or to speak (overt repetition and supervision)
-1. How you catch a baseball or get out of the way of a moving car. (retina -> brain -> reflex)
+
+# Examples of Machine Learning Applications
 
 
 
