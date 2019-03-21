@@ -21,15 +21,31 @@ In a typical scenario, we have a **training set** of data observed in the past:
 
 Using this data, we build a **prediction model**, or **learner**, that is able to predict the outcome for new input data.
 
-![alt text](../assets/img/machine_learning_illustration.png)
-
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions (e.g., teaching a child to speak): **repetition with more data results in a better learner**.
 
+![alt text](../assets/img/machine_learning_illustration.png)
 
-# Examples of Machine Learning Applications
+# Major Categories of Machine Learning and Example Applications
+
+![alt text](https://www.mathworks.com/content/mathworks/www/en/discovery/machine-learning/jcr:content/mainParsys3/discoverysubsection_1965078453/mainParsys/image_2128876021_cop.adapt.full.high.svg/1551847794310.svg)
+
+## Unsupervised Learning
+
+Unsupervised learning groups, interprets and find patterns in input data without outcome data.
+
+- Unsupervised example 1: Clustering
+
+    - Cluster a dataset into multiple groups
+
+    - Example water resources research: ***FIND SOME***
+
+![alt text](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/GUID-A06A412D-2F4F-4D35-8FFF-1F4B3B3A8F16-web.png)
 
 
 
+
+# More Resources
+https://www.mathworks.com/discovery/machine-learning.html
 
 
 ## [“What does the machine (i.e. the statistical model) actually learn?”](https://towardsdatascience.com/linear-regression-using-gradient-descent-in-10-lines-of-code-642f995339c0)
