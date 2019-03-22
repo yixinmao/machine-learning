@@ -24,23 +24,38 @@ Using this data, we build a **prediction model**, or **learner**, that is able t
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions (e.g., teaching a child to speak): **repetition with more data results in a better learner**.
 
 ![alt text](../assets/img/machine_learning_illustration.png)
+<i> Machine learning illustration. </i>
 
 # Major Categories of Machine Learning and Example Applications
 
 ![alt text](https://www.mathworks.com/content/mathworks/www/en/discovery/machine-learning/jcr:content/mainParsys3/discoverysubsection_1965078453/mainParsys/image_2128876021_cop.adapt.full.high.svg/1551847794310.svg)
+<i> Major categories of machine learning (image source: MathWorks). </i>
 
-## Unsupervised Learning
+## 1. Unsupervised Learning
 
 Unsupervised learning groups, interprets and find patterns in input data without outcome data.
 
-- Unsupervised example 1: Clustering
+- **Unsupervised learning example 1: Clustering**
 
-    - Cluster a dataset into multiple groups
+    - Clustering methods cluster a dataset into multiple groups.
 
-    - Example water resources research: ***FIND SOME***
+    - Example applications: ***FILL IN***
+
+    - Example applications in water resources research: ***FIND SOME AND FILL IN***
 
 ![alt text](https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/GUID-A06A412D-2F4F-4D35-8FFF-1F4B3B3A8F16-web.png)
+<i> Illustration of clustering (image source: ArcGIS). </i>
 
+- **Unsupervised learning example 2: Principal Component Analysis (PCA)**
+
+    - PCA is a statistical procedure that transforms a set of input data of possibly correlated variables into a set of values of linearly uncorrelated variables called **principal components**. After the transformation, the first principle component accounts for as much of the variability in the data as possible, and the second principle component accounts for the largest variability in the remaining dimensions of the data that are orthogonal to (i.e., have no linear correlation with) the first principle component, and so on so forth (source: [Wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis)).
+
+    - Example applications: ***FILL IN***
+
+    - PCA is widely used in atmospheric sciences, often referred to as **Empirical Orthogonal Function (EOF)** analysis in the field. For example, EOF can be applied on a temporal-spatial climate dataset to find the most dominant spatial and temporal patterns. ***FILL IN MORE DETAILS AND REFERENCES***
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png)
+<i>For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>
 
 
 
