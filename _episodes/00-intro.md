@@ -24,14 +24,35 @@ Using this data, we build a **prediction model**, or **learner**, that is able t
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions (e.g., teaching a child to speak): **repetition with more data results in a better learner**.
 
 ![alt text](../assets/img/machine_learning_illustration.png)
-<i> Machine learning illustration. </i>
+
+<i> Illustration of machine learning. </i>
 
 # Major Categories of Machine Learning and Example Applications
 
 ![alt text](https://www.mathworks.com/content/mathworks/www/en/discovery/machine-learning/jcr:content/mainParsys3/discoverysubsection_1965078453/mainParsys/image_2128876021_cop.adapt.full.high.svg/1551847794310.svg)
+
 <i> Major categories of machine learning (image source: MathWorks). </i>
 
-## 1. Unsupervised Learning
+## 1. Supervised Learning
+
+Supervised learning learns a prediction model from past input data and observed outcomes (called **training data**), such that the prediction can take new input data and estimate outcome.
+
+- **Sub-categories of supervised learning**:
+
+    - **Regression**: outcomes are continuous values
+
+        - Example applications: ***FILL IN***
+
+        - Example applications in water resources research: ***FILL IN***
+
+    - **Classification**: outcomes are catogorical values
+
+        - Example applications: ***FILL IN; use Shay's examples***
+
+        - Example applications in water resources research: ***FILL IN; use Shay's example on land classification***
+
+
+## 2. Unsupervised Learning
 
 Unsupervised learning groups, interprets and find patterns in input data without outcome data.
 
@@ -55,9 +76,10 @@ Unsupervised learning groups, interprets and find patterns in input data without
     - PCA is widely used in atmospheric sciences, often referred to as **Empirical Orthogonal Function (EOF)** analysis in the field. For example, EOF can be applied on a temporal-spatial climate dataset to find the most dominant spatial and temporal patterns. ***FILL IN MORE DETAILS AND REFERENCES***
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png)
-<i>For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>
 
+<i>For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>.
 
+# More References for Machine Learning Applications in Water Resources
 
 # More Resources
 https://www.mathworks.com/discovery/machine-learning.html
