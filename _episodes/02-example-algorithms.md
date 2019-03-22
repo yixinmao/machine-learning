@@ -13,64 +13,76 @@ keypoints:
 
 ## Linear Regression
 
-#### Supervised learning, regression
+#### (Supervised learning, regression)
 
 - Yes, algorithms as simple as linear regression can also be considered as machine learning!
 
 - Simplest regression algorithm with numerous applications
 
-- A good first try for regression problems (it's always good to start with simple models!)
+- A good first try for regression problems (it's good idea to start with simple models to understand the data better before building complicated ones!)
 
 ![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png)
 
 <i>Illustration of linear regression (image source: https://machinelearning-blog.com/2018/01/24/linear-regression).</i>
 
 
+## Kernel Smoother
+
+#### (Supervised learning, regression)
+
+- Instead of fitting global data, kernel smoothers only use those input data points close to the new data point <i>x<sub>0</sub></i> and fit a simple model on these "local" input data points. Weights can be assigned to these local data points.
+
+- Requires little or no training; just need to wait for the target data point <i>x<sub>0</sub></i>, fit a local model and predict on <i>x<sub>0</sub></i>.
+
+![alt text](../assets/img/local_smoother_ESL.png)
+
+<i>(image source: Hastie et al. (2016): The Elements of Statistical Learning, Second Edition, Chapter 6.</i>
 
 
+## Logistic Regression
 
-In this section, we will build up from a commonly understood model, a decision tree, to random forests and state of the art gradient tree boosting techniques like XGBoost.
+#### (Supervised learning, classification)
 
-## Flowcharts to decision trees
+- Don't be fooled by its name - logistic regression is the most popular classification algorithm!
 
-I suspect all of you have seen a flow chart, like this one titled ["Solar Panels" from xkcd](https://xkcd.com/1924/).
+- In a binary-outcome case, logistic regression predicts the probability of the outcome being 1 versus 0.
+
+![alt text](http://uc-r.github.io/public/images/analytics/logistic_regression/plot1-1.png)
+
+<i>Comparison of linear regression fit and logistic regression fit for a binary outcome data set. In this example, the x-axis is the input variable, credit card balance, and the y-axis is whether or not defaulting happened (image source: http://uc-r.github.io/logistic_regression).</i>
+
+
+## Decision Tree and Random Forest
+
+#### (Supervised learning, classification or regression)
+
+- A decision tree is similar as a decision making flowchart
+
+- A decision tree can be *learned* from data by greedily choosing the input variable and finding the spliting point that best classifies the training data, repeating this process for each branch. 
+
+- The result of a learned decision tree is intuitive to interpret.
+
+- A **random forest** is a large collective of trees.
+
+    - It aggregates a large number of decision trees trained on a random subset of input data.
+
+    - Can potentially result in better performance.
 
 ![alt text](https://imgs.xkcd.com/comics/solar_panels.png "flowchart, xkcd: Solar Panels")
 
-This flowchart can be interpreted as a decision tree. The questions represent covariates (often called "features" in machine learning), while the final leaves represent possible outputs. These outputs are text values right now: "maybe", "haha good luck", "probably not", "sure". But our proposed solar panel predictive model could be a binary classification task, a multi-class classification task, or a regression task depending on how we add structure to the text.
+<i>Illustration of a decision flowchart (image source: https://imgs.xkcd.com/comics/solar_panels.png).</i>
 
-In the comic's flowchart, the questions all have binary responses that can be answered with "yes" or "no". But in your geospatial research, we may have covariates that are numerical. We'll often see the responses represented using inequalities. More realistic than "Is it hot to the touch?" is a covariate measuring temperature, where the boundary is set to "Operating temperature >= 30^oC".
 
-So while a decision tree is a *model*, we haven't gotten to *learning* this decision tree for a given dataset. Two algorithms to learn the parameters and covariates for a decision tree include CART (Classification and Regression Trees) and ID3 (Iterative Dichotomiser 3) that are optimized using the Gini index and information gain, respectively.
+## Neural Network
 
-Conceptually, basic decision tree training algorithms greedily choose the attribute (or feature) that best classifies the training data, repeating this process for each branch. In ID3, we determine the ideal attribute using information gain, or the difference in entropy before and after splitting on that attribute.
+#### (Supervised or unsupervised learning, classification or regression)
 
-## Random forests
+- Neural Network is framework for many algorithms, vaguely inspired by the structure of animal brains.
 
-What do you call a large collective of trees? A forest!
+- ***FILL IN MORE & IMAGES***
 
-A random forest is comprised of a large number of decision trees. The number of trees used in the ensemble is controlled by a hyperparameter; typically between a few hundred and several thousand. The mode of outputs from the decision trees is used for classification and mean output for regression in most cases.
 
-The benefits of random forests are numerous. While individual decision trees are likely to overfit to the training data, random forests can mitigate that issue. This gives random forests a much higher predictive accuracy than a single tree. Random forests are more robust; slight perturbations in the training dataset do not destabilize the model in the way a single decision tree would.
 
-However, there are some downsides to scaling up to random forests. It is much more computationally expensive to train a random forest. Also, a decision tree is much more interpretable. As evidenced by the xkcd comic from before, flowcharts (and thus, decision trees) are present in popular culture and understood by many. Random forests are not.
 
-Underappreciated is the difference between bagging (or bootstrap aggregating) of tree models and random forests. The difference is slight. Bagging is the process of choosing training examples with replacement from the overall training set, training a decision tree on that subset, and repeating that process. Random forests take this one step forward by also choosing from a random subset of features at each candidate split in the learning process.
 
-## Tree boosting methods
 
-Beyond random forests, there are other alterations to tree-based machine learning models that have improved accuracy and other nice properties. We'll focus on gradient boosting.
-
-Because trees are discrete and add special complications, let's understand boosting conceptually using generic functions and regression. Unlike bagging methods, like what we see in random forests, boosting methods can not be built in parallel. Boosting methods build trees one at a time; each new tree helping to correct errors from the previously trained tree.
-
-General tree boosting algorithms, like AdaBoost, correct these errors by increasing the weight of observations that were previously misclassified. Gradient boosting corrects these errors by targeting large residuals of the previous model iteration.
-
-Our model's residuals, or difference between the true label and our model's output, can provide knowledge about improving our model. We then create an improved model $F_{m+1}(x) = F_m(x) + h(x)$ where h is fit to these residuals, $y - F_m(x)$. We continue this process for some number $m$ of trees.
-
-One blog resource comparing random forests to gradient boosting is [here](https://medium.com/@aravanshad/gradient-boosting-versus-random-forest-cfa3fa8f0d80).
-
-A very popular implementation of gradient boosting is XGBoost by Tianqi Chen while he was a grad student here at the University of Washington. His particular contribution was a novel sparsity-aware algorithm, weighted quantile sketch for approximate trees, and other insights that speed up performance considerably. Read the paper on arxiv [here](https://arxiv.org/abs/1603.02754).
-
-# Support vector machines (SVMs)
-
-Support vector machines (SVMs) are a particular machine learning technique in the broader group of kernel based methods, just as random forests are one of many tree based methods. Unlike the last category, this tutorial will be focusing on a single kernel-based method.
