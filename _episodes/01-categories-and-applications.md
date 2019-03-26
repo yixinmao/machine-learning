@@ -43,10 +43,10 @@ Supervised learning learns a prediction model from past **input data** and **obs
 
 <i>Figure: Handwritten digits classification (image source: Wolfram).</i>
 
-![alt text](https://www.researchgate.net/profile/Jong_Min_Yeom/publication/272737692/figure/fig3/AS:667813249290245@1536230494379/Land-cover-classification-with-RapidEye-satellite-dataleft-original-imagery-with-true.ppm)
+![alt-text](../assets/img/houston_flood.png "Logo Title Text 1")
+![alt-text](../assets/img/houston_flood_fcn.png "Logo Title Text 1")
 
-<i>Figure: Land cover classification with RapidEye satellite data(left: original imagery with true color composition, right: classification result) (image source: Kim and Yeom (2012): Effect of the urban land cover types on the surface temperature: case study of Ilsan New City), Korean Journal of Remote Sensing, 28(2), 203~214).</i>
-
+<i> Hurricane Harvey Houston flood mapping </i>
 
 ## 2. Unsupervised Learning
 
