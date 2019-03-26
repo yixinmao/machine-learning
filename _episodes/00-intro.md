@@ -55,11 +55,11 @@ Supervised learning learns a prediction model from past **input data** and **obs
 
             - Land classification
 
-![alt text](Figure: https://www.wolfram.com/mathematica/new-in-10/enhanced-image-processing/HTMLImages.en/handwritten-digits-classification/smallthumb_10.gif)
+![alt text](https://www.wolfram.com/mathematica/new-in-10/enhanced-image-processing/HTMLImages.en/handwritten-digits-classification/smallthumb_10.gif)
 
 <i>Figure: Handwritten digits classification (image source: Wolfram).</i>
 
-![alt text](Fhttps://www.researchgate.net/profile/Jong_Min_Yeom/publication/272737692/figure/fig3/AS:667813249290245@1536230494379/Land-cover-classification-with-RapidEye-satellite-dataleft-original-imagery-with-true.ppm)
+![alt text](https://www.researchgate.net/profile/Jong_Min_Yeom/publication/272737692/figure/fig3/AS:667813249290245@1536230494379/Land-cover-classification-with-RapidEye-satellite-dataleft-original-imagery-with-true.ppm)
 
 <i>Figure: Land cover classification with RapidEye satellite data(left: original imagery with true color composition, right: classification result) (image source: Kim and Yeom (2012): Effect of the urban land cover types on the surface temperature: case study of Ilsan New City), Korean Journal of Remote Sensing, 28(2), 203~214).</i>
 
