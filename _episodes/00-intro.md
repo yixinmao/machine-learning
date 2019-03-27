@@ -1,6 +1,6 @@
 ---
 title: "What is machine learning?"
-teaching: 10
+teaching: 5
 exercises: 0
 questions:
 - "What is machine learning? How is it different from traditional algorithms?"

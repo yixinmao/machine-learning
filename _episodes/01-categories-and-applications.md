@@ -1,6 +1,6 @@
 ---
 title: "Major categories of machine learning"
-teaching: 15
+teaching: 5
 exercises: 0
 questions:
 - "What are the major categories of machine learning?"
@@ -46,7 +46,7 @@ Supervised learning learns a prediction model from past **input data** and **obs
 ![alt-text](../assets/img/houston_flood.png "Logo Title Text 1")
 ![alt-text](../assets/img/houston_flood_fcn.png "Logo Title Text 1")
 
-<i> Hurricane Harvey Houston flood mapping </i>
+<i>Figure: Hurricane Harvey Houston flood mapping (upper panel: raw image; lower panel: flooding pixels classified).</i>
 
 ## 2. Unsupervised Learning
 
