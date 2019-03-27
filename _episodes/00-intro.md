@@ -23,7 +23,7 @@ Using this data, we build a **prediction model**, or **learner**, that is able t
 
 Learning itself is the act of gradually improving performance on a task without being explicitly programmed. This process mimics human neurological functions (e.g., teaching a child to speak): **repetition with more data results in a better learner**.
 
-![alt text](../assets/img/machine_learning_illustration.png  | width=10)
+![alt text](../assets/img/machine_learning_illustration.png){:height="50%" width="50%"}
 
 <i>Figure: Illustration of machine learning. </i>
 
