@@ -23,7 +23,7 @@ keypoints:
 
 - Multivariate linear regression: linear regression with multiple input variables
 
-![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png){:height="20%" width="20%"}
+![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png){:height="40%" width="40%"}
 
 <i>Figure: Illustration of linear regression (image source: https://machinelearning-blog.com/2018/01/24/linear-regression).</i>
 
@@ -107,7 +107,7 @@ keypoints:
 
 - PCA is widely used in atmospheric sciences, often referred to as **Empirical Orthogonal Function (EOF)** analysis in the field. For example, EOF can be applied on a temporal-spatial climate dataset to find the most dominant spatial and its associated temporal variation.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png){:height="30%" width="30%"}
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png){:height="40%" width="40%"}
 
 <i>Figure: For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>.
 
