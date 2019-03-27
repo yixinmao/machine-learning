@@ -21,9 +21,16 @@ keypoints:
 
 - A good first try for regression problems (it's good idea to start with simple models to understand the data better before building complicated ones!)
 
+- Multivariate linear regression: linear regression with multiple input variables
+
 ![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png)
 
-<i>Illustration of linear regression (image source: https://machinelearning-blog.com/2018/01/24/linear-regression).</i>
+<i>Figure: Illustration of linear regression (image source: https://machinelearning-blog.com/2018/01/24/linear-regression).</i>
+
+
+![alt text](https://i.stack.imgur.com/PeX0r.png)
+
+<i>Figure: Multivariate linear regression (image source: StackExchange).</i>
 
 
 ## Kernel Smoother
@@ -39,17 +46,21 @@ keypoints:
 <i>(image source: Hastie et al. (2016): The Elements of Statistical Learning, Second Edition, Chapter 6.</i>
 
 
-## Logistic Regression
+## Support Vector Machine (SVM)
 
 #### (Supervised learning, classification)
 
-- Don't be fooled by its name - logistic regression is the most popular classification algorithm!
+- SVM is a classification algorithm that separates classes with a clear gap that is as wide as possible (i.e., **large margin**).
 
-- In a binary-outcome case, logistic regression predicts the probability of the outcome being 1 versus 0.
+- SVM is often combined with some data transformations (called **kernels**) such that the transformed data can be linear separated.
 
-![alt text](http://uc-r.github.io/public/images/analytics/logistic_regression/plot1-1.png)
+- A review of SVM applications in water resources research: [Raghavendra and Deka (2014): Support vector machine applications in the field of hydrology: A review, Applied Soft Computing.](https://www.sciencedirect.com/science/article/pii/S1568494614000611#!)
 
-<i>Comparison of linear regression fit and logistic regression fit for a binary outcome data set. In this example, the x-axis is the input variable, credit card balance, and the y-axis is whether or not defaulting happened (image source: http://uc-r.github.io/logistic_regression).</i>
+![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-2.png)
+
+![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-3.png)
+
+<i>Figure: Illustration of SVM finding the largest margin decision boundary (upper panel: many possible decision boundaries to separate the data of two classes; lower panel: the decision boundary found by SVM that has the largest margin, i.e., the distance between the decision boundary and the points that are closest to it).</i>
 
 
 ## Decision Tree and Random Forest
@@ -70,19 +81,58 @@ keypoints:
 
 ![alt text](https://imgs.xkcd.com/comics/solar_panels.png "flowchart, xkcd: Solar Panels")
 
-<i>Illustration of a decision flowchart (image source: https://imgs.xkcd.com/comics/solar_panels.png).</i>
+<i>Figure: Illustration of a decision flowchart (image source: https://imgs.xkcd.com/comics/solar_panels.png).</i>
+
+
+## K-Means Clustering
+
+#### (Unsupervised learning)
+
+- Clustering methods cluster a dataset into multiple groups.
+
+- K-Means is one of the most commonly used clustering algorithm that iteratively updates the cluster centroids and cluster assignment for each data point. The number of clusters needs to be specified.
+
+![alt text](https://i.imgur.com/S65Sk9c.jpg)
+
+<i> Illustration of clustering (image source: https://mubaris.com/posts/kmeans-clustering). </i>
+
+
+## Principal Component Analysis (PCA)
+
+#### (Unsupervised learning)
+
+- PCA is a statistical procedure that transforms a set of input data of possibly correlated variables into a set of new variables that are linearly uncorrelated (the transformed variables are called **principal components**). After the transformation, the first principle component accounts for as much of the variability in the data as possible, and the second principle component accounts for the largest variability in the remaining dimensions of the data that are orthogonal to (i.e., have no linear correlation with) the first principle component, and so on so forth (source: [Wikipedia](https://en.wikipedia.org/wiki/Principal_component_analysis)).
+
+- PCA can be used for dimention reduction (e.g., image compression)
+
+- PCA is widely used in atmospheric sciences, often referred to as **Empirical Orthogonal Function (EOF)** analysis in the field. For example, EOF can be applied on a temporal-spatial climate dataset to find the most dominant spatial and its associated temporal variation.
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png)
+
+<i>Figure: For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>.
+
+![alt text](../assets/img/PCA_Zhang_1997.png)
+
+<i>Figure: Example PCA application in atmospheric sciences. Here "residual SST field" is sea surface temperature from which the variability associated with the ENSO cycle has been removed (image source: Zhang et al. (2017): ENSO-like Interdecadal Variability: 1900–93, Journal of Climage).</i>
 
 
 ## Neural Network
 
 #### (Supervised or unsupervised learning, classification or regression)
 
-- Neural Network is framework for many algorithms, vaguely inspired by the structure of animal brains.
+- Neural network is framework for many algorithms, vaguely inspired by the structure of animal brains.
 
-- ***FILL IN MORE & IMAGES***
+- A typical neural network has an input layer, one or multiple hidden layers, and an output layer. Each layer consists of a collection of units or nodes (called **neuron**) that are connected with those neurons in the adjacent layers via transformations (called **activation functions** with parameters).
 
+- A hidden layer can "learn" a set of new variables from the previous layer, which would be a better set of input variables for the next layer.
 
+- Machine learning using neural networks with many hidden layers are sometimes called **deep learning**.
 
+- There exist a large number of various constructions of neural networks, suitable for different applications.
 
+- A good review of neural network/deep learning applications in water resources research: [Shen (2018): A transdisciplinary review of deep learning research and its relevance for water resources scientists, Water Resources Researh.](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR022643)
 
+![alt text](https://icdn6.digitaltrends.com/image/artificial_neural_network_1-720x720.jpg)
+
+<i>Figure: Illustration of a neural network with two hidden layers (image source: https://www.digitaltrends.com/cool-tech/what-is-an-artificial-neural-network).</i>
 
