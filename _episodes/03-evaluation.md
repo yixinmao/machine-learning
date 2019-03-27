@@ -30,13 +30,13 @@ Before building a machine learning model, always try to understand your data bet
 
 A good understanding of the basic data behavior helps choose suitable models and is key to model diagnosis.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/b/ba/Data_visualization_process_v1.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/b/ba/Data_visualization_process_v1.png){:class="img-responsive"}
 
-<i>You need a solid understanding for your data before being effective with machine learning (image source: https://en.wikipedia.org/wiki/Exploratory_data_analysis).</i>
+<i>Figure: You need a solid understanding for your data before being effective with machine learning (image source: https://en.wikipedia.org/wiki/Exploratory_data_analysis).</i>
 
-![alt text](https://blogs.sas.com/content/iml/files/2011/08/corr.png)
+![alt text](https://blogs.sas.com/content/iml/files/2011/08/corr.png){:class="img-responsive"}
 
-<i>Example pairwise scatterplot matrix of multiple variables (image source: https://blogs.sas.com/content/iml/2011/08/26/visualizing-correlations-between-variables-in-sas.html).</i>
+<i>Figure: Example pairwise scatterplot matrix of multiple variables (image source: https://blogs.sas.com/content/iml/2011/08/26/visualizing-correlations-between-variables-in-sas.html).</i>
 
 # Machine Learning Procedure: Training, Validation and Test Sets
 
@@ -79,12 +79,12 @@ To understand why these happen, we need to introduce the concept of model underf
 
         - It is important to examine and compare the model performance on the training and validation set in order to find the sweet spot!
 
-![alt text](https://cdn-images-1.medium.com/max/1600/1*_7OPgojau8hkiPUiHoGK_w.png)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*_7OPgojau8hkiPUiHoGK_w.png){:class="img-responsive"}
 
-<i>Illustration of underfitting and overfitting - regression example (image source: https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76)</i>
+<i>Figure: Illustration of underfitting and overfitting - regression example (image source: https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76)</i>
 
-![alt text](https://cdn-images-1.medium.com/max/1600/1*JZbxrdzabrT33Yl-LrmShw.png)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*JZbxrdzabrT33Yl-LrmShw.png){:class="img-responsive"}
 
-<i>Illustration of underfitting and overfitting - classification example (image source: https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76)</i>
+<i>Figure: Illustration of underfitting and overfitting - classification example (image source: https://medium.com/greyatom/what-is-underfitting-and-overfitting-in-machine-learning-and-how-to-deal-with-it-6803a989c76)</i>
 
 

@@ -13,9 +13,9 @@ keypoints:
 
 # Major Categories of Machine Learning and Example Applications
 
-![alt text](https://www.mathworks.com/content/mathworks/www/en/discovery/machine-learning/jcr:content/mainParsys3/discoverysubsection_1965078453/mainParsys/image_2128876021_cop.adapt.full.high.svg/1551847794310.svg)
+![alt text](https://www.mathworks.com/content/mathworks/www/en/discovery/machine-learning/jcr:content/mainParsys3/discoverysubsection_1965078453/mainParsys/image_2128876021_cop.adapt.full.high.svg/1551847794310.svg){:class="img-responsive"}
 
-<i> Major categories of machine learning (image source: MathWorks). </i>
+<i>Figure: Major categories of machine learning (image source: MathWorks). </i>
 
 ## 1. Supervised Learning
 
@@ -39,12 +39,12 @@ Supervised learning learns a prediction model from past **input data** and **obs
 
             - Land classification
 
-![alt text](https://www.wolfram.com/mathematica/new-in-10/enhanced-image-processing/HTMLImages.en/handwritten-digits-classification/smallthumb_10.gif)
+![alt text](https://www.wolfram.com/mathematica/new-in-10/enhanced-image-processing/HTMLImages.en/handwritten-digits-classification/smallthumb_10.gif){:class="img-responsive"}
 
 <i>Figure: Handwritten digits classification (image source: Wolfram).</i>
 
-![alt-text](../assets/img/houston_flood.png "Logo Title Text 1")
-![alt-text](../assets/img/houston_flood_fcn.png "Logo Title Text 1")
+![alt-text](../assets/img/houston_flood.png "Logo Title Text 1"){:class="img-responsive"}
+![alt-text](../assets/img/houston_flood_fcn.png "Logo Title Text 1"){:class="img-responsive"}
 
 <i>Figure: Hurricane Harvey Houston flood mapping (upper panel: raw image; lower panel: flooding pixels classified).</i>
 
@@ -52,7 +52,7 @@ Supervised learning learns a prediction model from past **input data** and **obs
 
 Unsupervised learning groups, interprets and find patterns in input data *without outcome data*. For example, unsupervised learning can be applied to identify groups (or **clusters**) in the data.
 
-![alt-text](../assets/img/supervised_unsuper.png "Logo Title Text 1")
+![alt-text](../assets/img/supervised_unsuper.png "Logo Title Text 1"){:class="img-responsive"}
 
 <i>Figure: Illustration of supervised classification vs. unsupervised clustering. </i>
 

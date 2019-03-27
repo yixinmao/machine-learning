@@ -23,12 +23,12 @@ keypoints:
 
 - Multivariate linear regression: linear regression with multiple input variables
 
-![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png)
+![alt text](https://machinelearningblogcom.files.wordpress.com/2018/01/bildschirmfoto-2018-01-24-um-14-32-02.png){:class="img-responsive"}
 
 <i>Figure: Illustration of linear regression (image source: https://machinelearning-blog.com/2018/01/24/linear-regression).</i>
 
 
-![alt text](https://i.stack.imgur.com/PeX0r.png)
+![alt text](https://i.stack.imgur.com/PeX0r.png){:class="img-responsive"}
 
 <i>Figure: Multivariate linear regression (image source: StackExchange).</i>
 
@@ -41,7 +41,7 @@ keypoints:
 
 - Requires little or no training; just need to wait for the target data point <i>x<sub>0</sub></i>, fit a local model and predict on <i>x<sub>0</sub></i>.
 
-![alt text](../assets/img/local_smoother_ESL.png)
+![alt text](../assets/img/local_smoother_ESL.png){:class="img-responsive"}
 
 <i>(image source: Hastie et al. (2016): The Elements of Statistical Learning, Second Edition, Chapter 6.</i>
 
@@ -56,9 +56,9 @@ keypoints:
 
 - A review of SVM applications in water resources research: [Raghavendra and Deka (2014): Support vector machine applications in the field of hydrology: A review, Applied Soft Computing.](https://www.sciencedirect.com/science/article/pii/S1568494614000611#!)
 
-![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-2.png)
+![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-2.png){:class="img-responsive"}
 
-![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-3.png)
+![alt text](https://eight2late.files.wordpress.com/2017/01/svm-fig-3.png){:class="img-responsive"}
 
 <i>Figure: Illustration of SVM finding the largest margin decision boundary (upper panel: many possible decision boundaries to separate the data of two classes; lower panel: the decision boundary found by SVM that has the largest margin, i.e., the distance between the decision boundary and the points that are closest to it).</i>
 
@@ -79,7 +79,7 @@ keypoints:
 
     - Can potentially result in better performance.
 
-![alt text](https://imgs.xkcd.com/comics/solar_panels.png "flowchart, xkcd: Solar Panels")
+![alt text](https://imgs.xkcd.com/comics/solar_panels.png "flowchart, xkcd: Solar Panels"){:class="img-responsive"}
 
 <i>Figure: Illustration of a decision flowchart (image source: https://imgs.xkcd.com/comics/solar_panels.png).</i>
 
@@ -92,7 +92,7 @@ keypoints:
 
 - K-Means is one of the most commonly used clustering algorithm that iteratively updates the cluster centroids and cluster assignment for each data point. The number of clusters needs to be specified.
 
-![alt text](https://i.imgur.com/S65Sk9c.jpg)
+![alt text](https://i.imgur.com/S65Sk9c.jpg){:class="img-responsive"}
 
 <i> Illustration of clustering (image source: https://mubaris.com/posts/kmeans-clustering). </i>
 
@@ -107,11 +107,11 @@ keypoints:
 
 - PCA is widely used in atmospheric sciences, often referred to as **Empirical Orthogonal Function (EOF)** analysis in the field. For example, EOF can be applied on a temporal-spatial climate dataset to find the most dominant spatial and its associated temporal variation.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/GaussianScatterPCA.svg/1280px-GaussianScatterPCA.svg.png){:class="img-responsive"}
 
 <i>Figure: For a input dataset with two variables, the PCA algorithm finds the first principal component that accounts for the largest data variability (the longer vector in the figure) and the second principal component that is orthogonal to the first one (the shorter vector in the figure) (image source: https://en.wikipedia.org/wiki/Principal_component_analysis)</i>.
 
-![alt text](../assets/img/PCA_Zhang_1997.png)
+![alt text](../assets/img/PCA_Zhang_1997.png){:class="img-responsive"}
 
 <i>Figure: Example PCA application in atmospheric sciences. Here "residual SST field" is sea surface temperature from which the variability associated with the ENSO cycle has been removed (image source: Zhang et al. (2017): ENSO-like Interdecadal Variability: 1900–93, Journal of Climage).</i>
 
@@ -132,7 +132,7 @@ keypoints:
 
 - A good review of neural network/deep learning applications in water resources research: [Shen (2018): A transdisciplinary review of deep learning research and its relevance for water resources scientists, Water Resources Researh.](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018WR022643)
 
-![alt text](https://icdn6.digitaltrends.com/image/artificial_neural_network_1-720x720.jpg)
+![alt text](https://icdn6.digitaltrends.com/image/artificial_neural_network_1-720x720.jpg){:class="img-responsive"}
 
 <i>Figure: Illustration of a neural network with two hidden layers (image source: https://www.digitaltrends.com/cool-tech/what-is-an-artificial-neural-network).</i>
 
